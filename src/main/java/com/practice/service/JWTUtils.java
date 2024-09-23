@@ -17,7 +17,7 @@ import java.util.function.Function;
 public class JWTUtils {
     private SecretKey Key;
     //El tiempo de expiracion en milisegundos
-    private static final long EXPIRATION_TIME = 86400000;
+    private static final long EXPIRATION_TIME = 86400000; //24 horas
 
     /**
      * DECODIFICAR EL TOKEN
